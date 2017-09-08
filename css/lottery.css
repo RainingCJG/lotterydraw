@@ -1,0 +1,61 @@
+/*清除浏览器默认内外边距*/
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font: 14px/1.4286 "微软雅黑";
+}
+
+/*通用样式*/
+.none{
+	display: none;
+}
+
+.display{
+	display: block;
+}
+
+li{
+	list-style: none;
+}
+
+a{
+	list-style: none;
+}
+
+/*布局居中显示*/
+div.container{
+	width: 500px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+/*抽奖奖品样式*/
+div.prize{
+	font-size: 30px;
+	color: red;
+	margin: 40px 0;
+}
+
+/*开始、停止按钮*/
+.btn{
+	display: inline-block;
+	width: 80px;
+	height: 25px;
+	color: #fff;
+	background-color: blue;
+	border: 2px outset gainsboro;
+	-webkit-border-radius: 10px;
+	   -moz-border-radius: 10px;
+	        border-radius: 10px;
+	margin: 0 40px;
+	cursor: pointer;
+}
+
+.active{
+	border: 2px inset gainsboro;
+	background-color: #ccc;
+} 
+
